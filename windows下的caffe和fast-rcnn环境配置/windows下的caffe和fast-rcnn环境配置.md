@@ -48,8 +48,6 @@
 
 成功运行三个命令。
 
-blog/496463) 
-
 （提前安装Anaconda或python）
 
 5、在cmd中，输入`pip install cython`和`pip install easydict`来安装cython和easydict（Anaconda默认安装了cython），安装失败可能pip版本过低，先输入`pip install pip --upgrade` 升级 pip。
@@ -69,7 +67,7 @@ blog/496463)
 	如果是安装protobu3.0.0的话，可能仅仅支持VS2015。
 	解决方法的话：在CMD中输入 
 	VS2013:SET VS90COMNTOOLS=%VS120COMNTOOLS%
-参考网站：[http://my.oschina.net/soarwilldo/blog/496463](http://my.oschina.net/soarwilldo/
+参考网站：[http://my.oschina.net/soarwilldo/blog/496463](http://my.oschina.net/soarwilldo/blog/496463)
 
 setup.py安装完成后，到`python_root/Lib/site-packages/utils`中可以找到两个文件`cython_bbox.pyd`和`cython_nms.pyd`，把这两个文件复制到`fast_rcnn_root/lib/utils`中。
 

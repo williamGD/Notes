@@ -19,11 +19,16 @@ FNR: false negative rate: FN/(FN+TP)
 
 Accuracy=(TP+TN)/(TP+FN+FP+TN)
 
-missing rate=1-TPR=FNR
+Missing rate=1-TPR=FNR
 
-pecision: P=TP/(TP+FP) 
+>漏警率(Missing Alarm): 漏警率(Missing Alarm)=1-Recall=FN/(TP+FN) 等同于Missing rate
+
+Pecision: P=TP/(TP+FP) 
 
 Recall  : R=TP/(TP+FN)
+
+虚警率(False Alarm)  : 虚警率(False Alarm)=1-pecision=FP/(TP+FP)
+
 
 
 ### Pedestrain detection evaluation :FPPI and FPPW (benchmark)

@@ -13,5 +13,5 @@ $$
 $$
 P(x,\lambda,r)=f(x)-\lambda*g(x)+ r/2 *g(x)^{2}
 $$
-
+![Alt Text](../Pictures/ALM.png)
 ![Alt Text](https://github.com/williamGD/Notes/blob/master/Pictures/ALM.png)

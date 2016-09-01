@@ -6,4 +6,4 @@ ALM(增广拉格朗日乘子)与LM(拉格朗日乘子)
 
 增广拉格朗日乘子法的目标函数是:P(x,\lamda,r)=f(x)-\lamda*g(x)+ r/2*g(x)^2
 
-![Alt text](ALM.png)
+![Alt Text](https://github.com/williamGD/Notes/blob/master/Pictures/ALM.png)
